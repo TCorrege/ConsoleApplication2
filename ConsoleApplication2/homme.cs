@@ -20,6 +20,7 @@ namespace ConsoleApplication2
         public DateTime DDN;
         public string MyPrenom() {
             return Prenom;
+            //OK
         }
 
         public Boolean EstMajeur()
