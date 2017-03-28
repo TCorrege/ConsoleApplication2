@@ -18,7 +18,9 @@ namespace ConsoleApplication2
         public String Nom;
         public String Prenom;
         public DateTime DDN;
-
+        public string MyPrenom() {
+            return Prenom;
+        }
 
         public Boolean EstMajeur()
         {
