@@ -26,7 +26,7 @@ namespace ConsoleApplication2
         {
             if (DateTime.Today.Year - DDN.Year >= 18)
             {
-                return true;
+                return true; //from2017
             }
             else return false;
         }
